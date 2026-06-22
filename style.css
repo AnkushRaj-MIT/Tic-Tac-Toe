@@ -38,7 +38,6 @@ h1{
     border: none;
     box-shadow:0 0 1rem rgba(0,0,0,0.5);
     font-size:8vmin ;
-    color: rgb(15, 254, 234);
     background-color: rgb(0, 9, 9);
     transition:0.2s;
     font-family: "Courier New", monospace;
