@@ -21,6 +21,7 @@ boxes.forEach((box)=>{
         count++;
         let winnerFound=checkWinner();
         if(!winnerFound && count==9){
+            msg.style.color="yellow";
             msg.innerText = "It's a Draw!";
             msgContainer.classList.remove("hide");
             newGame.style.display = "inline-block";
@@ -34,6 +35,7 @@ const disableBox=()=>{
     }
 };
 const showWinner=(winner)=>{ 
+    msg.style.color="lightgreen";
     msg.innerText=`Player ${winner} Wins!!!`; 
     msgContainer.classList.remove("hide"); 
     disableBox();
